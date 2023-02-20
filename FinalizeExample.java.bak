@@ -1,0 +1,17 @@
+//using finalize block
+
+public class FinalizeExample
+{
+	public static void main(String args[])
+	{
+		FinalizeExample obj= new FinalizeExample();
+		System.out.println("Object id is: "+obj);
+		obj= NULL;
+
+		System.out.println("My name is Anushka.");
+	}
+		protected void Finalize()
+	{
+System.out.println("Finalize method called.");
+		}
+}
